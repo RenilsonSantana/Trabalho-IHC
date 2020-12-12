@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="Pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugar Baby</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="">
+        <menu>
+            <ul>
+                <li><a href="index.html">Sobre nós</a></li>
+                <li><a href="cad.html">Cadastrar</a></li>
+                <li><a href="log.html">Logar</a></li>
+            </ul>
+        </menu>
+    </header>
+    <section>
+        <h1>Cadastro</h1>
+        <form name="adm" method="post" action="cad.html">
+            <div class="conteiner">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <label for="nome">Nome:</label> 
+                        <input type="text" id="nome" placeholder="Nome completo" size="15" required title="Seu nome">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <label for="email">E-mail:</label> 
+                        <input type="email" id="email" placeholder="Digite seu e-mail" size="15" required title="E-mail">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <label for="cel">Celular:</label> 
+                        <input type="tel" id="cel" maxlength="15" placeholder="(11) 99999-9999" size="12" required title="Celular">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <label for="nasc">Nascimento:</label> 
+                        <input type="date" id="nasc" size="10" required title="Data de nascimento">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <label for="senha">Senha:</label> 
+                        <input type="password" id="senha" placeholder="Digite sua senha" size="13" required title="Senha">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" id="btn">
+                        <input type="image" src="imagens/botao-enviar.png" id="btn" title="Enviar">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer id="rodape">
+        <p>Copyright &copy; - by Renilson Santana Santos<br>
+        <!--<a href="https://www.linkedin.com/in/renilson-s-174406125/" target="_blank">LinkedIn</a></p>-->
+    </footer>
+</body>
+</html>
