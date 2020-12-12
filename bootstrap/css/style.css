@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Coiny&display=swap');
+
+
+body{
+    background-color: #aaffff;
+    
+}
+
+header{
+    text-align: center;
+}
+section{
+    box-shadow: #444 2px 2px 5px;
+    border-radius: 25px;
+    margin: auto;
+    width: 75%;
+    background-color: white;
+}
+
+ul{
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li{
+    display: inline;
+    background-color: black;
+    color: white;
+}
+
+a{
+    background-color: black;
+    padding: 13px;
+    color: white;
+    border-radius: 7px;
+}
+
+a:hover{
+    color: cyan;
+    transition: 1s;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    text-shadow: rgb(0, 162, 255) 1px 1px 5px;
+    font-family: Top Secret;
+    font-size: 24pt;
+}
+
+p{
+    padding-left: 15px;
+    
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+}
