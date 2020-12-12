@@ -32,18 +32,19 @@ li{
     color: white;
 }
 
-a{
+li a{
     background-color: black;
     padding: 13px;
     color: white;
     border-radius: 7px;
 }
 
-a:hover{
+li a:hover{
     color: cyan;
     transition: 1s;
     text-decoration: none;
 }
+
 
 h1{
     text-align: center;
